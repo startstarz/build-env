@@ -11,7 +11,7 @@ RUN \
   apt-get update && \
   apt-get install -y software-properties-common && \
   apt-get -y upgrade && \
-  add-apt-repository ppa:openjdk-r/ppa && \
+  add-apt-repository -y ppa:openjdk-r/ppa && \
   apt-get update && \
   apt-get install -y openjdk-8-jdk && \
   apt-get install -y git-core gnupg flex bison gperf libsdl1.2-dev bc &&\
